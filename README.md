@@ -29,13 +29,13 @@ GET
 POST
 ```
 /client/store           => Save a new client (name)
-/address/store          => Save a new address (name and client_id)
+/address/store          => Save a new address (address and client_id)
 ``` 
 
 PUT
 ```
 /client/update/id       => Update a client (name)
-/address/update/id      => Update an address (name or client_id)
+/address/update/id      => Update an address (address or client_id)
  ```   
 
 DELETE
