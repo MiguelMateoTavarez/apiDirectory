@@ -43,3 +43,6 @@ DELETE
 /client/delete/id       => Delete a client and all his addresses
 /address/delete/id      => Delete an address
 ``` 
+
+
+<a href="https://app.daily.dev/MiguelMateot"><img src="https://github.com/MiguelMateoTavarez/nodetable/blob/main/devcard.svg" width="400" alt="Chris Bongers's Dev Card"/></a>
