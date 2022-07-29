@@ -19,27 +19,27 @@ Prefix
 
 GET
 ```
-/clients
-/client/id
-/addresses
-/address/id
-/address/client/id
+/clients                => return all the clients
+/client/id              => return a client
+/addresses              => Return all addresses
+/address/id             => Return an address
+/address/client/id      => Return all addresses of a client
 ```
 
 POST
 ```
-/client/store
-/address/store
+/client/store           => Save a new client (name)
+/address/store          => Save a new address (name and client_id)
 ``` 
 
 PUT
 ```
-/client/update/id
-/address/update/id
+/client/update/id       => Update a client (name)
+/address/update/id      => Update an address (name or client_id)
  ```   
 
 DELETE
 ```
-/client/delete/id
-/address/delete/id
+/client/delete/id       => Delete a client and all his addresses
+/address/delete/id      => Delete an address
 ``` 
