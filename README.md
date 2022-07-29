@@ -20,7 +20,7 @@ Prefix
 GET
 ```
 /clients
-/clients/id
+/client/id
 /addresses
 /address/id
 /address/client/id
