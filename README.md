@@ -14,7 +14,7 @@ To use the API you need to send request to some URLs, I'll list it to make easy 
 
 Prefix
 ```    
-/api/
+/api
 ```
 
 GET
