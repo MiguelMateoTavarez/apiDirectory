@@ -4,7 +4,7 @@
 
 If you're going to download the project, the first thing you have to do is install all the dependencies, for this the only thing you have to do is execute `composer install`.
 
-Then you have to configure the .env file, adding the database credentials and the database name you're going to use.
+Then you have to configure the `.env` file, adding the database credentials and the database name you're going to use.
 
 The next step is execute the migrations and seeders, the command for this is `php artisan migrate --seed`
 
